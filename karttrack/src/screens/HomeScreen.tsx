@@ -150,6 +150,8 @@ export default function HomeScreen() {
                 <View style={styles.aboutDivider} />
                 <Text style={[styles.aboutLabel, { color: subTextColor }]}>{t.developer}</Text>
                 <Text style={[styles.aboutDev, { color: textColor }]}>Tharney Software Solutions</Text>
+                <Text style={[styles.aboutLabel, { color: subTextColor }]}>{t.license}</Text>
+                <Text style={[styles.aboutDev, { color: textColor }]}>MIT</Text>
                 <TouchableOpacity
                   style={[styles.aboutCloseBtn, { backgroundColor: mainColor }]}
                   onPress={() => setAboutVisible(false)}>
